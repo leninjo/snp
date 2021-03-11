@@ -124,12 +124,12 @@ small {
   right: -58px;
 }
 
-.demo-gallery{
+/* .demo-gallery{
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-}
+} */
 
 .demo-gallery > ul {
   margin-bottom: 0;
@@ -138,7 +138,7 @@ small {
 
 .demo-gallery > ul > li {
   margin-bottom: 15px;
-  width: 288px;
+  width: 280px;
   display: inline-block;
   margin-right: 11px;
   list-style: outside none none;
