@@ -1,12 +1,14 @@
+html{
+  background: linear-gradient(45deg, #17A589, #2E86C1);
+}
 body{
   background-image: url(/assets/images/fondo.jpg);
   height: 100vh !important;
   background-repeat: no-repeat, repeat !important;
   background-size: cover;
-  /* overflow: hidden; */
 }
 .contenedor-principal {
-  background-color: rgba(3, 28, 7, 0.5);
+  background-color: rgba(3, 28, 7, 0.3);
   height: 100vh !important;
   padding: 10px !important;
 }
@@ -17,17 +19,18 @@ body{
 }
 .navbar-brand{
   opacity: 0.9 !important;
-  filter: drop-shadow(2px 3px 2px #2E2E2E);
+  filter: drop-shadow(2px 3px 2px #353232);
 }
 .img-contenedor{
-  background-color: white;
-  opacity: 0.7 !important;
-  width: 330px !important;
+  background-color: rgba(240, 240, 240, 0.6);
+  /* background-color: transparent; */
+  padding:10px !important;
+  width: 350px !important;
   border-radius: 10px !important;
 }
-.logo-snp{
-  filter: drop-shadow(2px 3px 2px #fff);
-}
+/* .logo-snp{
+  filter: drop-shadow(1px 1px 5px #000);
+} */
 i{
   font-size: 30px !important;
   color: white !important;
@@ -44,17 +47,16 @@ i:hover{
 }
 .direccion, .telefono, .correo{
   font-size: 20px !important;
-  transition: .7s ease-in-out !important;
+  transition: .5s ease-in-out !important;
 }
 .direccion:hover, .telefono:hover, .correo:hover{
-  rotate: 360deg;
+  rotate: 90deg !important;
 }
-.fotografias{
+/* .fotografias{
   margin-top: 35px !important;
   font-weight: bold;
   text-shadow: 1px 3px 13px #000000;
-
-}
+} */
 small {
   font-size: 11px;
   color: #999;
