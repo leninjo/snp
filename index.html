@@ -11,32 +11,60 @@
     <title>SERNAPORT</title>
   </head>
   <body>
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark row p-4">
+          <div class="col-2 px-3 py-3">
+            <ul class="navbar-nav d-flex justify-content-center">
+              <li class="nav-item d-flex justify-content-center">
+                <a id="send-email" class="nav-link" href="#"><i class="fas fa-envelope"></i></a>
+              </li>
+              <li class="nav-item d-flex justify-content-center">
+                <a id="show-fb" class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li class="nav-item d-flex justify-content-center">
+                <a id="show-twt" class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-10 py-4">
+            <a class="navbar-brand d-flex justify-content-center" href="https://www.evergreen-line.com/">
+              <img src="assets/images/logo-evg.png" alt="EVERGREEN" width="330" height="55" class="">
+            </a>
+            <a class="navbar-brand d-flex justify-content-center logo-snp" href="https://www.evergreen-line.com/">
+              <img src="assets/images/logosnp.png" alt="SERNAPORT" width="330" height="75" class="">
+            </a>
+        </div>
+      </div>
+    </div>
     <div class="container-fluid contenedor-principal">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="https://www.evergreen-line.com/">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand d-none d-sm-block d-sm-none d-md-none d-lg-block" href="https://www.evergreen-line.com/">
             <img src="assets/images/logo-evg.png" alt="EVERGREEN" width="330" height="55" class="">
           </a>
-          <a class="navbar-brand logo-snp" href="https://www.evergreen-line.com/">
-            <img src="assets/images/logosnp.png" alt="EVERGREEN" width="330" height="75" class="">
+          <a class="navbar-brand d-none d-sm-block d-sm-none d-md-none d-lg-block logo-snp" href="#">
+            <img src="assets/images/logosnp.png" alt="SERNAPORT" width="330" height="75" class="">
           </a>
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav">
             <li class="nav-item">
-              <a id="send-email" class="nav-link" href="#"><i class="fas fa-envelope"></i></a>
+              <a id="send-email" class="nav-link d-none d-sm-block d-sm-none d-md-none d-lg-block" href="#"><i class="fas fa-envelope"></i></a>
             </li>
             <li class="nav-item">
-              <a id="show-fb" class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+              <a id="show-fb" class="nav-link d-none d-sm-block d-sm-none d-md-none d-lg-block" href="#"><i class="fab fa-facebook"></i></a>
             </li>
             <li class="nav-item">
-              <a id="show-twt" class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+              <a id="show-twt" class="nav-link d-none d-sm-block d-sm-none d-md-none d-lg-block" href="#"><i class="fab fa-twitter"></i></a>
             </li>
           </ul>
         </div>
       </nav>
       <br>
       <div class="container mx-auto contenedor-slide">
-        <div class="row">
-          <div class="col-8 p-0">
+        <div class="row mb-4 contenendor-info">
+          <div class="col-xl-8 col-lg-8 col-sm-12 p-0">
             <div id="secondary-slider" class="splide">
               <div class="splide__track">
                 <ul class="splide__list">
@@ -59,16 +87,36 @@
               </div>
             </div>
           </div>
-          <div class="col-4 text-white my-auto px-4">
-            <h2 class="text-center">SERNAPORT</h2>
-            <h5 class="text-center">Agente Naviero de EVERGREEN LINE</h5>
-            <hr>
-            <h6 class="text-start"><i class="fas fa-map-marker-alt direccion"></i> Diagonal 6, 10-50 Zona 10, Interamericas Financial Center, Torre Norte, 6to. Nivel, Oficina 603
-              Guatemala City</h6>
+          <div class="col-xl-4 col-lg-4 col-sm-12 text-white px-4 mb-4">
             <br>
-            <h6 class="text-start"><a href="tel:+50223293400"><i class="fas fa-phone telefono"></i></a> +(502) 2329-3400</h6>
-            <br>
-            <h6 class="text-start"><a href="mailto:sernaporsa@sernaporsa.com.gt"><i class="fas fa-envelope correo"></i></a> sernaporsa@sernaporsa.com.gt</h6>
+            <h1 class="text-center">SERNAPORT</h1>
+            <h5 class="text-center">Agente Naviero de <br> EVERGREEN LINE</h5>
+            <hr class="my-4">
+            <div class="row mb-4">
+              <div class="col-2 my-auto d-flex justify-content-center">
+                <a><i class="fas fa-map-marker-alt direccion"></i></a>
+              </div>
+              <div class="col-10 my-auto">
+                <h6 class="text-start"> Diagonal 6, 10-50 Zona 10, Interamericas Financial Center, Torre Norte, 6to. Nivel, Oficina 603
+                  Guatemala City</h6>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-2 my-auto d-flex justify-content-center">
+                <a href="tel:+50223293400"><i class="fas fa-phone telefono"></i></a>
+              </div>
+              <div class="col-10 my-auto">
+                <h6 class="text-start"> +(502) 2329-3400</h6>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2 my-auto d-flex justify-content-center">
+                <a href="mailto:sernaporsa@sernaporsa.com.gt"><i class="fas fa-envelope correo"></i></a>
+              </div>
+              <div class="col-10 my-auto">
+                <h6 class="text-start"> sernaporsa@sernaporsa.com.gt</h6>
+              </div>
+            </div>
           </div>
         </div>
       </div>
