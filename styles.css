@@ -8,7 +8,7 @@ body{
   background-size: cover;
 }
 .contenedor-principal {
-  background-color: rgba(3, 28, 7, 0.3);
+  background-color: rgba(3, 28, 7, 0.1);
   height: 100vh !important;
   padding: 10px !important;
 }
@@ -22,15 +22,15 @@ body{
   filter: drop-shadow(2px 3px 2px #353232);
 }
 .img-contenedor{
-  background-color: rgba(250, 250, 250, 0.9);
-  /* background-color: transparent; */
+  /* background-color: rgba(250, 250, 250, 0.9); */
+  background-color: transparent;
   padding:10px !important;
   width: 350px !important;
   border-radius: 10px !important;
 }
-/* .logo-snp{
-  filter: drop-shadow(1px 1px 5px #000);
-} */
+.logo-snp{
+  filter: drop-shadow(1px 1px 1px #000);
+}
 i{
   font-size: 30px !important;
   color: white !important;
